@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:#5a3d6d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .card-container {
+    background-color: #fff;
+    padding: 30px 25px;
+    border-radius: 12px;
+    width: 360px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  h2 {
+    text-align: center;
+    color: #5a3d6d;
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  .input-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+  }
+  
+  .input-row {
+    display: flex;
+    gap: 10px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 12px;
+    background-color: #5a3d6d;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #452a59;
+  }
+  #paymentMessage {
+    text-align: center;
+    color: green;
+    font-weight: bold;
+}
+  

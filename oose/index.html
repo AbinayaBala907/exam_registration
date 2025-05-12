@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Exam Registration System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="login-container">
+        <form id="loginForm" class="login-form" onsubmit="return login()">
+            <h2>Student Login</h2>
+
+            <div class="input-group">
+                <label for="studentId">Student ID</label>
+                <input type="text" id="studentId" placeholder="Enter your ID" required>
+            </div>
+
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Enter your password" required>
+            </div>
+<!-- Inside <form> in login.html -->
+    <button type="submit">Login</button>
+    <p id="errorMessage" class="error-message"></p>
+    <p style="text-align: center;">Don't have an account? <a href="signup.html">Sign up</a></p>
+    
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html> 
